@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Knowledge Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Knowledge Assistant</h1>
+            <p>Ask questions and get answers enhanced with our knowledge base</p>
+        </header>
+
+        <main>
+            <form method="POST" action="/" class="query-section">
+                <textarea id="user-query" name="query"
+                    placeholder="Ask me anything about development, Git, AI, or our workshop...">{{ query if query else '' }}</textarea>
+                <button type="submit">Get Answer</button>
+            </form>
+
+            <div class="response-container">
+                {% if response %}
+                <div class="response">{{ response|safe }}</div>
+                {% else %}
+                <p class="initial-message">Your response will appear here...</p>
+                {% endif %}
+            </div>
+        </main>
+
+        <footer>
+            <p>Built with Gemini API & RAG for Google Developer Club Workshop</p>
+        </footer>
+    </div>
+</body>
+
+</html>

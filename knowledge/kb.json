@@ -1,0 +1,42 @@
+[
+  {
+    "id": "git-basics",
+    "content": "Git is a distributed version control system that allows multiple people to work on a project simultaneously. Key Git commands include git clone (copy a repository), git add (stage changes), git commit (save changes), git push (upload changes), and git pull (download changes)."
+  },
+  {
+    "id": "github-workflow",
+    "content": "The GitHub workflow typically involves forking a repository, creating a branch, making changes, committing those changes, pushing to your fork, and then creating a pull request. Pull requests allow others to review your code before it's merged into the main codebase."
+  },
+  {
+    "id": "client-server",
+    "content": "In a client-server architecture, the client is the user-facing application (frontend) that sends requests to a server (backend). The server processes these requests, often interacting with databases or other services, and returns responses to the client. This separation of concerns allows for better scalability and security."
+  },
+  {
+    "id": "rest-api",
+    "content": "REST (Representational State Transfer) is an architectural style for designing networked applications. RESTful APIs use HTTP methods explicitly: GET to retrieve resources, POST to create resources, PUT to update resources, and DELETE to remove resources. They typically return data in JSON format."
+  },
+  {
+    "id": "llm-basics",
+    "content": "Large Language Models (LLMs) are AI systems trained on vast amounts of text data. They can understand and generate human-like text based on the prompts they receive. Examples include Google's Gemini, OpenAI's GPT models, and Anthropic's Claude."
+  },
+  {
+    "id": "rag-explanation",
+    "content": "Retrieval-Augmented Generation (RAG) is an AI framework that enhances language model responses by first retrieving relevant information from a knowledge base, then using that information to generate more accurate and contextual responses. This approach helps ground the model's outputs in verified information and reduces hallucinations."
+  },
+  {
+    "id": "gemini-api",
+    "content": "Google's Gemini API provides access to Google's multimodal AI models. Developers can integrate Gemini capabilities into their applications by obtaining an API key from Google AI Studio and making HTTP requests to the API endpoints. The API supports various tasks including text generation, summarization, and more."
+  },
+  {
+    "id": "certification-value",
+    "content": "Technical certifications validate your skills and knowledge in specific areas. They can help you stand out to employers, particularly when you're early in your career. Popular certifications include Google Cloud certifications, AWS certifications, Microsoft Azure certifications, and various specialized certifications for AI, security, and project management."
+  },
+  {
+    "id": "internship-tips",
+    "content": "When searching for tech internships, start early (6-8 months before the intended start date), apply to multiple positions, tailor your resume for each application, build a portfolio of projects, and leverage your network for referrals. Technical interviews often include coding challenges and behavioral questions."
+  },
+  {
+    "id": "workshop-info",
+    "content": "This Google Developer Club workshop covers Git and GitHub basics, client-server architecture, LLMs and RAG with Gemini API, valuable certifications, and internship resources. The hands-on project demonstrates how to build an AI-enhanced web application using Google's Gemini API with a simple RAG implementation."
+  }
+]
