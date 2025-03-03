@@ -12,8 +12,8 @@ A simple Flask application demonstrating Retrieval-Augmented Generation (RAG) wi
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/gemini-rag-demo.git
-cd gemini-rag-demo
+git clone https://github.com/Abhay-2004/RAG-DEMO.git
+cd RAG-DEMO
 ```
 
 ### Step 2: Set Up Virtual Environment
