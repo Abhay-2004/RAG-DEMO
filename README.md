@@ -34,7 +34,7 @@ source venv/bin/activate
 
 Install the required packages:
 ```bash
-pip install flask python-dotenv google-generativeai
+pip3 install flask python-dotenv google-generativeai
 ```
 
 ### Step 4: Set Up API Key
@@ -51,7 +51,7 @@ GEMINI_API_KEY=your_api_key_here
 Make sure your virtual environment is activated, then run the application:
 ```bash
 # Run the application
-python app.py
+python3 app.py
 ```
 
 The application will start and be accessible at http://127.0.0.1:5000 in your web browser.
@@ -105,6 +105,7 @@ Some ways you could enhance this demo:
 ## Troubleshooting
 
 - **API Key Issues**: Make sure your API key is correct and properly set in the `.env` file
-- **Module Not Found Errors**: Ensure all dependencies are installed with `pip install flask python-dotenv google-generativeai`
+- **Module Not Found Errors**: Ensure all dependencies are installed with `pip3 install flask python-dotenv google-generativeai`
 - **Permission Denied**: If you can't write to the `.env` file, check your file permissions
 ```
+test push
